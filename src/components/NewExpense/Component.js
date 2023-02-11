@@ -1,9 +1,9 @@
 import React from 'react'
-import "./ExpenseForm.css";
 
-const ExpenseForm = () => {
+const Component = () => {
   return (
-    <div><form>
+    <div>
+        <form>
     <div className="new-expense__controls">
       <div className="new-expense__control">
         <label> Title</label>
@@ -21,8 +21,9 @@ const ExpenseForm = () => {
     <div className="new-expense__actions">
         <button type="submit">  Add Expense </button>
     </div>
-  </form></div>
+  </form>
+    </div>
   )
 }
 
-export default ExpenseForm
+export default Component

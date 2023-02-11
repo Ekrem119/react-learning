@@ -1,6 +1,6 @@
 import React from "react";
-import Expenses from "./components/Expenses";
-
+import Expensess from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenses = [
@@ -31,8 +31,9 @@ function App() {
   ];
   return (
     <div>
-      <h2>Hamzanin Harcamalari</h2>
-      <Expenses items={expenses}/>
+      <NewExpense/>
+      <Expensess items={expenses} />
+      
     </div>
   );
 }
